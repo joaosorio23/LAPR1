@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='pt'>
+
+  <head>
+    <title>  EarthAPP: Iniciar Sessão</title>
+    <link rel="stylesheet" href="IniciarSessão.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  </head>
+  <body>
+     <ul>
+            <li><a href="Earth.html">Página Inicial</a></li>
+            <li><a>Contactos</a>
+     <ul>
+       <li><a href="mailto:EarthAPP@gmail.com">Email</a></li>
+       <li><a href="tel:xxxxxxxxx">Telemóvel</a></li>
+     </ul>
+            </li>
+            <li><a>Sobre</a>
+     <ul>
+              <li><a href="ANossaEquipa.html">A Nossa Equipa</a></li>
+              <li><a href="Sobre.html">Objetivos e Prespetivas</a></li>
+              <li><a href="Parcerias.html">Parcerias</a></li>
+
+     </ul>
+     </li>
+     <header>
+     <div class="container"><a href="IniciarSessão.html">
+      <button class="btn btn1">Iniciar Sessão</button></a>
+     </div>
+     </header>
+  <section>
+    <h1><strong>Iniciar Sessão</strong></h1>
+    <br>
+    <h3>Username/Email:</h3>
+    <input type="email" id="user" placeholder="Exemplo@email.com">
+    <br><br>
+    <h3>Password:</h3>
+    <input type="password" id="myInput" placeholder="Password">
+    <br><br>
+    <input type="checkbox" onclick="myFunction()"> Mostrar Password
+    <script>
+    function myFunction(){
+    var x =
+    document.getElementById("myInput");
+      if (x.type === "password") {
+         x.type = "text";
+      }else{
+         x.type = "password";
+      }
+    }
+    </script>
+    <br><br>
+    <a  class="jordao" href="#">Criar conta?</a>
+    <p>
+    <a class="jordao" href="#">Esqueceu-se da password?</a>
+   </p>
+    <br>
+    <div class="container1"><a href="#">
+     <button class="mesquita">Entrar</button></a>
+     <br><br>
+    </div>
+  </section>
+  <footer>EarthAPP © 2019</footer>
+  </body>
+</html>

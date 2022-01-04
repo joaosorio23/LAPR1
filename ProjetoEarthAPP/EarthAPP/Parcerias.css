@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0}
+body{
+  background: url('nature.jpg') no-repeat;
+  height: 100%;
+  background-size: cover;
+  font-family: sans-serif;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+.container{
+  text-align: right;
+}
+.btn{
+  border: 1px solid #3498db;
+  border-color: white;
+  background: none;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+section{
+  margin: 0 200px 0 200px;
+  background: #00000070;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-family: serif;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  opacity: .9;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+ul li a {
+  text-decoration: none;
+  color:white;
+  display: block;
+}
+ul li a:hover {
+  background-color: green;
+  cursor: pointer;
+
+}
+ul li ul li {
+  display: none;
+  cursor: pointer;
+}
+ul li:hover ul li {
+  display: block;
+  cursor: pointer;
+}
+
+header{
+  width: 100%;
+  height: 40px;
+  background: black;
+  margin: 0 0px 126px 0px;
+}
+.app-name , .texto , .logo , .download{
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+footer{
+  padding: 5px 0;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  margin: 142px 0 0 0;
+}
